@@ -1,20 +1,14 @@
 
 ABOUT
 
-The main aim of this project is how to get content from textfile
+How to get data from textfile
 
 In This Project
 
-step 1:for that first we need to create textfile(file.txt)
+step 1:first we need to create textfile(file.txt)
 
-step 2:write code for how to get content from file(experiment.py)
+step 2:code for how to get content from file(experiment.py)
 
-for specific content
-
-step 3:use regularexpression to get specific content from file
-
-step 4:for that import re
-
-RUN .PY file
+RUN .PY file:
 
 command to run :python experiment.py
