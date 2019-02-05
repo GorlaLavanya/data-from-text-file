@@ -1,4 +1,4 @@
-import re
+flag=1
 print("enter how many contacts you want")
 text=open("myfile.txt","a+")
 n=int(raw_input())
@@ -16,16 +16,16 @@ elif(n==2):
 		text.write(name+' ')
 		text.write(phoneno)
 else:
-	print("maximum two contacts only")
+	print("maximum two contacts you can enter")
 text.close()
-text=open("myfile.txt","r+")
-for line in text:
-	words=line.split()
-	print(words)
 text=open("myfile.txt","r+")
 name=raw_input("enter the name")
 for line in text:
 	words=line.split()
 	if name in words:
-		print(line) 	
+		print(line)
+		flag=0
+if(flag==1):
+	print("contact not found")
+	
 text.close()
