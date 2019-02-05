@@ -1,6 +1,9 @@
 
+ABOUT
+
 The main aim of this project is how to get content from textfile
 
+In This Project
 
 step 1:for that first we need to create textfile(file.txt)
 
@@ -14,4 +17,4 @@ step 4:for that import re
 
 RUN .PY file
 
-command to run :python filename.py
+command to run :python experiment.py
