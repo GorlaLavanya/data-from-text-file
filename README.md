@@ -1,4 +1,4 @@
-# project
+
 The main aim of this project is how to get content from textfile
 
 
